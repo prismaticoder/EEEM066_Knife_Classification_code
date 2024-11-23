@@ -1,6 +1,6 @@
 #!/bin/bash
 
-STUDENT_ID=xxxxxxx STUDENT_NAME="xxxxxx" python main.py \
+STUDENT_ID=6898979 STUDENT_NAME="SALAM JESUTOMIWA" python main.py \
 --model_mode tf_efficientnet_b0 \
 --dataset_location ../EEEM066_Knife_Classification_dataset \
 --train_datacsv dataset/train.csv \
