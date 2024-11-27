@@ -1,0 +1,52 @@
+Student ID:6898979
+Student name:SALAM JESUTOMIWA
+UUID:3a20460e-4c6e-43ab-b396-ddf4dba00204
+==========
+Args:Namespace(model_mode='swin_base_patch4_window7_224', dataset_location='./EEEM066_Knife_Classification_dataset', train_datacsv='dataset/train.csv', test_datacsv='dataset/test.csv', saved_checkpoint_path='Knife-Effb0', n_classes=192, num_workers=8, seed=0, resized_img_weight=224, resized_img_height=224, evaluate_only=False, model_path=None, epochs=20, batch_size=32, brightness=0.2, contrast=0.2, saturation=0.2, hue=0.2, random_rotation=0, vertical_flip=0, horizontal_flip=0.5, random_erase=False, color_aug=False, optim='adam', learning_rate=5e-05, weight_decay=0.0005, momentum=0.9, sgd_dampening=0, sgd_nesterov=False, rmsprop_alpha=0.99, adam_beta1=0.9, adam_beta2=0.999, lr_scheduler='CosineAnnealingLR', stepsize=[20, 40], gamma=0.1)
+==========
+------------------------- [START 2024-11-27_02-54-25] -------------------------
+
+                           |  Train   |   Valid  |              |
+ | Mode  |  Iter  | Epoch  |   Loss   |    mAP   |     Time     |
+-------------------------------------------------------------------------------
+
+| train | 300.0 |   0.0 |    1.987 |   0.000 |  1 min 09 sec |
+| val   |  10.0 |   0.0 |    1.987 |   0.839 |  1 min 14 sec |
+| train | 300.0 |   1.0 |    0.142 |   0.839 |  2 min 28 sec |
+| val   |  10.0 |   1.0 |    0.142 |   0.851 |  2 min 33 sec |
+| train | 300.0 |   2.0 |    0.061 |   0.851 |  3 min 47 sec |
+| val   |  10.0 |   2.0 |    0.061 |   0.880 |  3 min 52 sec |
+| train | 300.0 |   3.0 |    0.035 |   0.880 |  5 min 07 sec |
+| val   |  10.0 |   3.0 |    0.035 |   0.877 |  5 min 12 sec |
+| train | 300.0 |   4.0 |    0.024 |   0.877 |  6 min 26 sec |
+| val   |  10.0 |   4.0 |    0.024 |   0.885 |  6 min 31 sec |
+| train | 300.0 |   5.0 |    0.019 |   0.885 |  7 min 46 sec |
+| val   |  10.0 |   5.0 |    0.019 |   0.874 |  7 min 51 sec |
+| train | 300.0 |   6.0 |    0.017 |   0.874 |  9 min 09 sec |
+| val   |  10.0 |   6.0 |    0.017 |   0.874 |  9 min 14 sec |
+| train | 300.0 |   7.0 |    0.014 |   0.874 | 10 min 39 sec |
+| val   |  10.0 |   7.0 |    0.014 |   0.871 | 10 min 44 sec |
+| train | 300.0 |   8.0 |    0.011 |   0.871 | 12 min 03 sec |
+| val   |  10.0 |   8.0 |    0.011 |   0.868 | 12 min 08 sec |
+| train | 300.0 |   9.0 |    0.010 |   0.868 | 13 min 23 sec |
+| val   |  10.0 |   9.0 |    0.010 |   0.862 | 13 min 28 sec |
+| train | 300.0 |  10.0 |    0.011 |   0.862 | 14 min 43 sec |
+| val   |  10.0 |  10.0 |    0.011 |   0.838 | 14 min 48 sec |
+| train | 300.0 |  11.0 |    0.007 |   0.838 | 16 min 01 sec |
+| val   |  10.0 |  11.0 |    0.007 |   0.865 | 16 min 06 sec |
+| train | 300.0 |  12.0 |    0.021 |   0.865 | 17 min 20 sec |
+| val   |  10.0 |  12.0 |    0.021 |   0.747 | 17 min 25 sec |
+| train | 300.0 |  13.0 |    0.018 |   0.747 | 18 min 38 sec |
+| val   |  10.0 |  13.0 |    0.018 |   0.792 | 18 min 43 sec |
+| train | 300.0 |  14.0 |    0.007 |   0.792 | 19 min 57 sec |
+| val   |  10.0 |  14.0 |    0.007 |   0.799 | 20 min 02 sec |
+| train | 300.0 |  15.0 |    0.041 |   0.799 | 21 min 15 sec |
+| val   |  10.0 |  15.0 |    0.041 |   0.678 | 21 min 20 sec |
+| train | 300.0 |  16.0 |    0.015 |   0.678 | 22 min 33 sec |
+| val   |  10.0 |  16.0 |    0.015 |   0.759 | 22 min 38 sec |
+| train | 300.0 |  17.0 |    0.004 |   0.759 | 23 min 52 sec |
+| val   |  10.0 |  17.0 |    0.004 |   0.763 | 23 min 57 sec |
+| train | 300.0 |  18.0 |    0.013 |   0.763 | 25 min 10 sec |
+| val   |  10.0 |  18.0 |    0.013 |   0.731 | 25 min 15 sec |
+| train | 300.0 |  19.0 |    0.019 |   0.731 | 26 min 29 sec |
+| val   |  10.0 |  19.0 |    0.019 |   0.662 | 26 min 34 sec |

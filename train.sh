@@ -1,8 +1,8 @@
 #!/bin/bash
 
 STUDENT_ID=6898979 STUDENT_NAME="SALAM JESUTOMIWA" python main.py \
---model_mode tf_efficientnet_b0 \
---dataset_location /content/drive/MyDrive/colab_workspace_backup/EEEM066_Knife_Classification_dataset \
+--model_mode swin_base_patch4_window7_224 \
+--dataset_location ./EEEM066_Knife_Classification_dataset \
 --train_datacsv dataset/train.csv \
 --test_datacsv dataset/test.csv \
 --saved_checkpoint_path Knife-Effb0 \
@@ -17,5 +17,7 @@ STUDENT_ID=6898979 STUDENT_NAME="SALAM JESUTOMIWA" python main.py \
 --contrast 0.2 \
 --saturation 0.2 \
 --hue 0.2 \
---optim rmsprop \
---lr-scheduler CosineAnnealingLR
+--optim adam \
+--lr-scheduler CosineAnnealingLR \
+--horizontal_flip 0.5 \
+--random-erase
