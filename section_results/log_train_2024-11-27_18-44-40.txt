@@ -1,0 +1,11 @@
+Student ID:6898979
+Student name:SALAM JESUTOMIWA
+UUID:123486b4-71d1-43ea-944d-54bf0ad57737
+==========
+Args:Namespace(model_mode='swin_base_patch4_window7_224', dataset_location='./EEEM066_Knife_Classification_dataset', train_datacsv='dataset/train.csv', test_datacsv='dataset/test.csv', saved_checkpoint_path='Knife-Effb0', n_classes=192, num_workers=8, seed=0, resized_img_weight=224, resized_img_height=224, evaluate_only=False, model_path=None, epochs=20, batch_size=64, brightness=0.2, contrast=0.2, saturation=0.2, hue=0.2, random_rotation=30, vertical_flip=0, horizontal_flip=0.5, random_erase=True, color_aug=False, optim='adam', learning_rate=5e-05, weight_decay=0.0005, momentum=0.9, sgd_dampening=0, sgd_nesterov=False, rmsprop_alpha=0.99, adam_beta1=0.9, adam_beta2=0.999, lr_scheduler='CosineAnnealingLR', stepsize=[20, 40], gamma=0.1)
+==========
+------------------------- [START 2024-11-27_18-44-40] -------------------------
+
+                           |  Train   |   Valid  |              |
+ | Mode  |  Iter  | Epoch  |   Loss   |    mAP   |     Time     |
+-------------------------------------------------------------------------------
